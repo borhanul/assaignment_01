@@ -1,0 +1,101 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 5%;
+    margin: 5%;
+}
+.part_1{
+    display: flex;
+    
+}
+section{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width{
+    width: 50%;
+    
+}
+#border{
+    border-left: 10px solid ;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border_left{
+    margin-left: 20px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, crimson);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: ghostwhite;
+    font-weight: 400;
+}
+.name{
+    color: rgb(243, 202, 17)
+}
+#down{
+     padding-top: 20px;
+     font-size: 25px;
+}
+.box{
+    width: 33%;
+    margin-right: 2%;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-top: 2%;
+    border-radius: 30px;   
+}
+#center{
+     text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+#box_01{
+    background-color: rgb(221, 212, 161);
+}
+#box_02{
+    background-color: rgb(214, 159, 139);
+}
+#box_03{
+    background-color: rgb(150, 184, 197);
+}
+.half-width_01{
+    width: 40%;
+    
+}
+.half-width_02{
+    width: 60%;
+    
+}
+.img_down{
+    padding-top: 10%;
+}
+#img_03{
+    padding-left: 20%;
+}
+h2{
+    font-size: 40px;
+}
+#background_02{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+#background_01{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 300px;
+}
+#last_img{
+background-image: url(images/shapes/shape-3.png);
+background-repeat:no-repeat;
+background-position-x: left;
+background-size: 200px;
+}
